@@ -31,11 +31,19 @@ Add Below line to your hosts file and save it
 
 Fill `Username` and `Password`, Click `Sign in` Button
 
+The `Username` is the name in email, `Password` is `P@ssw0rd`. <br>
+For example, `kfchang@fstop.com.tw`, `Username` is `kfchang`, `Password` is `P@ssw0rd`
+
 
 <img src="/assets/images/signin.png" width="500">
 
+
+The first time when you login, it will ask you to modiy your password
+
 | :warning:  If you cannot login with your default password, or don't have an account please mail to [KFC](mailto:kfchang@fstop.com.tw) |
 | --- |
+
+
 
 
 
