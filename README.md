@@ -8,7 +8,7 @@ $ vi /etc/hosts
 ```
 Add Below line to your hosts file and save it
 ```
-10.109.190.251 iluvgit.fstop.com.tw
+10.109.190.251 gitlab.fstop.com.tw
 ```
  <br><br>
 
@@ -19,12 +19,12 @@ $ edit c:\Windows\System32\Drivers\etc\hosts
 ```
 Add Below line to your hosts file and save it
 ```
-10.109.190.251 iluvgit.fstop.com.tw
+10.109.190.251 gitlab.fstop.com.tw
 ```
 
 ---
 ## Login to GitLab
-[FSTOP GitLab](https://iluvgit.fstop.com.tw/)
+[FSTOP GitLab](https://gitlab.fstop.com.tw/)
 
 Fill `Username` and `Password`, Click `Sign in` Button
 
@@ -55,14 +55,14 @@ Generate SSH keys for gitlab
 For `Enter passphrase (empty for no passphrase):` and 
 `Enter same passphrase again:` just press `enter key`
 ```
-$ ssh-keygen -o -f ~/.ssh/id_rsa_iluvgit
+$ ssh-keygen -o -f ~/.ssh/id_rsa_gitlab_fstop
 
 Password:
 Generating public/private rsa key pair.
 Enter passphrase (empty for no passphrase): 
 Enter same passphrase again: 
-Your identification has been saved in /Users/Kai-FengChang/.ssh/id_rsa_iluvgit.
-Your public key has been saved in /Users/Kai-FengChang/.ssh/id_rsa_iluvgit.pub.
+Your identification has been saved in /Users/Kai-FengChang/.ssh/id_rsa_gitlab_fstop.
+Your public key has been saved in /Users/Kai-FengChang/.ssh/id_rsa_gitlab_fstop.pub.
 The key fingerprint is:
 SHA256:V54kwASwLQbGdSA2IcpEak761DiHkuT33+0brobo64k root@Kai-FengdeMacBook-Pro.local
 The key's randomart image is:
@@ -81,13 +81,13 @@ The key's randomart image is:
 
 Copy SSH Keys
 ```
-$ cat ~/.ssh/id_rsa_iluvgit.pub
+$ cat ~/.ssh/id_rsa_gitlab_fstop.pub
 
 ssh-rsa Thisislllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllloooooooooooooooooooooooooooooooooooooooooooooooonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnngggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggkey root@Kai-FengdeMacBook-Pro.local
 ```
 
 ### Copy Keys to GitLab
-Navigate to [FSTOP GitLab](https://iluvgit.fstop.com.tw/) and login
+Navigate to [FSTOP GitLab](https://gitlab.fstop.com.tw/) and login
 
 Click at Avatar at top-right corner, <br>
 At drop-down menu, click `Settings` 
@@ -117,7 +117,7 @@ Once you created, it should appear the page shown as follows
 
 Type below command to verify connection
 ```
-$ ssh -T git@iluvgit.fstop.com.tw
+$ ssh -T git@gitlab.fstop.com.tw
 Welcome to GitLab, @KFC!
 ```
 
