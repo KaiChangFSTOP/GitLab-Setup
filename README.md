@@ -1,3 +1,6 @@
+| :warning:  以下操作，請於公司連接有線網路執行！！ |
+| --- |
+
 
 # GitLab-Setup
 To Setup internal GitLab Server
@@ -8,7 +11,7 @@ $ vi /etc/hosts
 ```
 Add Below line to your hosts file and save it
 ```
-10.109.190.251 gitlab.fstop.com.tw
+10.109.26.59 gitlab.fstop.com.tw
 ```
  <br><br>
 
@@ -19,7 +22,7 @@ $ edit c:\Windows\System32\Drivers\etc\hosts
 ```
 Add Below line to your hosts file and save it
 ```
-10.109.190.251 gitlab.fstop.com.tw
+10.109.26.59 gitlab.fstop.com.tw
 ```
 
 ---
@@ -112,6 +115,12 @@ Once you created, it should appear the page shown as follows
 
 <img src="/assets/images/sshkey-content-done.png">
 <br>
+
+## Disable SSL verification
+at terminal, type following command
+```
+git config --global http.sslVerify false
+```
 
 ## Verify Connection
 
