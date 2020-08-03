@@ -55,7 +55,7 @@ The first time when you login, it will ask you to modiy your password
 ## Access GitLab via your endpoint
 ### Create SSH Key
 To support SSH, GitLab requires the installation of the OpenSSH client, which comes pre-installed on GNU/Linux and macOS, but not on Windows.
-
+[reference](https://gitlab.com/help/ssh/README#generating-a-new-ssh-key-pair)
 
 Navigate to your terminal, check ssh version
 ```
