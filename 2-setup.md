@@ -69,14 +69,14 @@ Generate SSH keys for gitlab
 For `Enter passphrase (empty for no passphrase):` and 
 `Enter same passphrase again:` just press `enter key`
 ```
-$ ssh-keygen -o -f ~/.ssh/id_rsa_gitlab_fstop
+$ ssh-keygen -t ed25519 -C "<comment>"
 
 Password:
 Generating public/private rsa key pair.
 Enter passphrase (empty for no passphrase): 
 Enter same passphrase again: 
-Your identification has been saved in /Users/Kai-FengChang/.ssh/id_rsa_gitlab_fstop.
-Your public key has been saved in /Users/Kai-FengChang/.ssh/id_rsa_gitlab_fstop.pub.
+Your identification has been saved in /Users/Kai-FengChang/.ssh/id_rsa_ed25519.
+Your public key has been saved in /Users/Kai-FengChang/.ssh/id_rsa_gitlab_ed25519.pub.
 The key fingerprint is:
 SHA256:V54kwASwLQbGdSA2IcpEak761DiHkuT33+0brobo64k root@Kai-FengdeMacBook-Pro.local
 The key's randomart image is:
@@ -95,7 +95,7 @@ The key's randomart image is:
 
 Copy SSH Keys
 ```
-$ cat ~/.ssh/id_rsa_gitlab_fstop.pub
+$ cat ~/.ssh/id_rsa_gitlab_ed25519.pub
 
 ssh-rsa Thisislllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllloooooooooooooooooooooooooooooooooooooooooooooooonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnngggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggkey root@Kai-FengdeMacBook-Pro.local
 ```
