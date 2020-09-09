@@ -95,7 +95,7 @@ The key's randomart image is:
 
 Copy SSH Keys
 ```
-$ cat ~/.ssh/id_rsa_gitlab_ed25519.pub
+$ cat ~/.ssh/id_ed25519.pub
 
 ssh-rsa Thisislllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllloooooooooooooooooooooooooooooooooooooooooooooooonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnngggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggkey root@Kai-FengdeMacBook-Pro.local
 ```
