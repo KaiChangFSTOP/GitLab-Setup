@@ -14,7 +14,7 @@ $ vi /etc/hosts
 ```
 Add Below line to your hosts file and save it
 ```
-10.109.26.59 gitlab.fstop.com.tw
+10.109.190.240 flow.fstop.com.tw
 ```
  <br><br>
 
@@ -25,12 +25,12 @@ $ edit c:\Windows\System32\Drivers\etc\hosts
 ```
 Add Below line to your hosts file and save it
 ```
-10.109.26.59 gitlab.fstop.com.tw
+10.109.190.240 flow.fstop.com.tw
 ```
 
 ---
 ## Login to GitLab
-[FSTOP GitLab](https://gitlab.fstop.com.tw/)
+[FSTOP GitLab](https://flow.fstop.com.tw/)
 
 Fill `Username` and `Password`, Click `Sign in` Button
 
