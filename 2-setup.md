@@ -30,7 +30,7 @@ Add Below line to your hosts file and save it
 
 ---
 ## Login to GitLab
-[FSTOP GitLab](https://flow.fstop.com.tw/)
+[FSTOP Flow](https://flow.fstop.com.tw/)
 
 Fill `Username` and `Password`, Click `Sign in` Button
 
@@ -94,14 +94,19 @@ The key's randomart image is:
 ```
 
 Copy SSH Keys
-```
-$ cat ~/.ssh/id_ed25519.pub
 
-ssh-rsa Thisislllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllloooooooooooooooooooooooooooooooooooooooooooooooonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnngggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggkey root@Kai-FengdeMacBook-Pro.local
+macOS
+```
+$ pbcopy < ~/.ssh/id_ed25519.pub
+```
+
+Git Bash on Windows
+```
+$ cat ~/.ssh/id_ed25519.pub | clip
 ```
 
 ### Copy Keys to GitLab
-Navigate to [FSTOP GitLab](https://gitlab.fstop.com.tw/) and login
+Navigate to [FSTOP Flow](https://flow.fstop.com.tw/) and login
 
 Click at Avatar at top-right corner, <br>
 At drop-down menu, click `Settings` 
@@ -137,7 +142,7 @@ git config --global http.sslVerify false
 
 Type below command to verify connection
 ```
-$ ssh -T git@gitlab.fstop.com.tw
+$ ssh -T git@flow.fstop.com.tw
 Welcome to GitLab, @KFC!
 ```
 
