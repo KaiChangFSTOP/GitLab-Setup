@@ -1,4 +1,4 @@
-| :warning:  以下操作，請於公司連接有線網路執行！！ |
+| :warning:  以下操作，請連入公司VPN！！，若無法連入VPN， 請主管協助開通|
 | --- |
 
 | :warning:  請先務必安裝完git-scm，如尚未安裝，請參考[git install](https://git-scm.com/downloads)！！ |
@@ -148,3 +148,28 @@ Welcome to GitLab, @KFC!
 
 If it appears `Welcome to GitLab, @XXX!`<br>
 Congratulations, you do the job best!!
+
+
+## Verify Project Clone and Push
+
+```
+$ git clone git@flow.fstop.com.tw:KFC/demo-project.git
+$ cd demo-project
+$ echo <your-username> >> README.md
+$ git add .
+$ git commit -m"<your-username>"
+$ git push
+```
+
+example shown as below
+```
+$ git clone git@flow.fstop.com.tw:KFC/demo-project.git
+$ cd demo-project
+$ echo KFC >> README.md
+$ git add .
+$ git commit -m"KFC"
+$ git push
+```
+
+
+
