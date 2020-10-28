@@ -32,6 +32,11 @@ Add Below line to your hosts file and save it
 ## Login to GitLab
 [FSTOP Flow](https://flow.fstop.com.tw/)
 
+
+If you have problem to visit the web page, do follow below instruction to fix it
+[reference](https://medium.com/@dblazeski/chrome-bypass-net-err-cert-invalid-for-development-daefae43eb12)
+
+
 Fill `Username` and `Password`, Click `Sign in` Button
 
 The `Username` is the name in email, `Password` is `P@ssw0rd`. <br>
