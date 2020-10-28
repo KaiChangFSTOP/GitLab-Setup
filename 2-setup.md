@@ -162,7 +162,7 @@ Congratulations, you do the job best!!
 ```
 $ git clone git@flow.fstop.com.tw:KFC/demo-project.git
 $ cd demo-project
-$ echo <your-username> >> README.md
+$ echo <your-username> >> <your-username>.md
 $ git add .
 $ git commit -m"<your-username>"
 $ git push
@@ -172,7 +172,7 @@ example shown as below
 ```
 $ git clone git@flow.fstop.com.tw:KFC/demo-project.git
 $ cd demo-project
-$ echo KFC >> README.md
+$ echo KFC >> KFC.md
 $ git add .
 $ git commit -m"KFC"
 $ git push
