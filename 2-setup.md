@@ -177,6 +177,10 @@ $ git add .
 $ git commit -m"KFC"
 $ git push
 ```
+## (OPTIONAL) link sourcetree to your gitlab account
 
+[reference](https://stackoverflow.com/questions/53184950/sourcetree-gives-me-a-login-error-when-i-try-to-add-my-gitlab-account)
+
+謝謝Ian Huang (黃景毅前輩) 提供！
 
 
